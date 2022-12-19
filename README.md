@@ -1,4 +1,4 @@
 # dotfiles
-vim, tmux, bash, git, linux
+vim, tmux, bash, git, linux, fzf, rg
 
-https://github.com/nicknisi/dotfiles
+based on: https://github.com/nicknisi/dotfiles

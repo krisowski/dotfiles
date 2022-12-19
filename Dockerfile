@@ -5,14 +5,14 @@ RUN apt update
 
 # Install dependencies
 RUN apt update
-RUN apt install -y build-essential file sudo curl wget htop lsof strace language-pack-en
-RUN apt install -y git tmux neovim jq make libxml2-utils
-#RUN snap install yq
+RUN apt install -y build-essential file sudo curl wget htop lsof strace language-pack-en fzf ripgrep
+RUN apt install -y git tmux neovim make libxml2-utils
+#RUN apt install -y snapd squashfuse fuse
+#RUN systemctl enable snapd
+#RUN snap install jq yq
+#RUN snap install go
 #RUN apt install meld mono? npm openjdk strace? tmux
 
-# Golang
-RUN wget https://golang.org/dl/go1.16.3.linux-amd64.tar.gz -O /tmp/go.tar.gz && \
-      tar -C /usr/local -xzf /tmp/go.tar.gz
 # Python
 RUN apt install -y python3
 # C/C++
@@ -35,6 +35,8 @@ RUN echo "$PUBLIC_KEY" > .ssh/id_rsa.pub
 RUN chmod 600 .ssh/id_rsa
 RUN chmod 600 .ssh/id_rsa.pub
 RUN ssh-keyscan github.com >> .ssh/known_hosts
+COPY .bashrc /tmp
+RUN cat /tmp/.bashrc >> ~/.bashrc
 
 #RUN git clone git@github.com:krisowski/dotfiles.git
 #WORKDIR /home/user/dotfiles

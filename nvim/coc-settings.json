@@ -1,6 +1,29 @@
 {
   "diagnostic.checkCurrentLine": true,
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "!",
+  "diagnostic.infoSign": "?",
+  "python.linting.flake8Enabled": true,
+  "go.goplsEnv": {
+    "GOOS": "js",
+    "GOARCH": "wasm"
+  },
+  "go.goplsOptions": {
+    "staticcheck": true
+  },
   "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": [
+        "serve"
+      ],
+      "filetypes": [
+        "terraform",
+        "tf"
+      ],
+      "initializationOptions": {},
+      "settings": {}
+    },
     "go": {
       "command": "gopls",
       "rootPatterns": ["go.mod"],
