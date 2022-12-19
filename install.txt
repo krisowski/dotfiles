@@ -1,0 +1,40 @@
+nvim (sudo add-apt-repository ppa:neovim-ppa/stable -y)
+git
+build-essentials
+make
+docker (https://docs.docker.com/engine/install/linux-postinstall/)
+mate-terminal
+nodejs
+htop
+awscli
+curl
+yarn
+ripgrep
+fzf
+fonts-powerline
+terraform (https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+apache2-utils (htpasswd)
+ffmpeg
+pip
+cloc
+net-tools
+
+grpc:
+sudo apt install -y protobuf-compiler
+sudo apt install protobuf-compiler-grpc
+
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+
+snap go
+snap jq
+snap yq
+snap dbeaver-ce
+snap postman
+
+grpcurl (https://github.com/fullstorydev/grpcurl/releases)
+
+pip:
+flake8
+pylint
+jedi
