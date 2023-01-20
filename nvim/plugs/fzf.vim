@@ -17,7 +17,7 @@ nnoremap <silent> <Leader>h/ :History/<CR>
 "  \   fzf#vim#with_preview('up', 'ctrl-/'), <bang>0)
 
 "Preview window on top + opens in fullscreen (even without !)
-command! -bang -nargs=* Rg
-  \ call fzf#vim#grep(
-  \   "rg --column --line-number --no-heading --color=always --smart-case -- ".shellescape(<q-args>), 1,
-  \   fzf#vim#with_preview('up', 'ctrl-/'), 1)
+"command! -bang -nargs=* Rg
+"  \ call fzf#vim#grep(
+"  \   "rg --column --line-number --no-heading --color=always --smart-case -- ".shellescape(<q-args>), 1,
+"  \   fzf#vim#with_preview('up', 'ctrl-/'), 1)

@@ -6,6 +6,7 @@
 "colors
 "colorscheme onedark
 colorscheme dracula
+"colorscheme spacegray
 "set termguicolors     " enable true colors support
 "let ayucolor="light"  " for light version of theme
 "let ayucolor="mirage" " for mirage version of theme
@@ -37,6 +38,9 @@ set nofoldenable
 
 set timeoutlen=1000
 set ttimeoutlen=50
+
+"mouse copy to clipboard
+set mouse=r
 
 
 " XML formating by xmllint
