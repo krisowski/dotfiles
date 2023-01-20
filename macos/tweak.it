@@ -1,0 +1,13 @@
+# key repeating: IdeaVim and hold the 'j' key
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+PL -> US keyboard: mac-keyboard-pl-to-us.sh
+
+Settings:
+- Keyboard: Key repeat rate: fast
+
+iTerm2
+- Option + b/f: Settings/Profiles/Keys/Key Mappings/Presets -> Natural Text Editing
+- Option + <-/-> Settings/Profiles/Keys/General -> Left Key Option: Esc+
+- Color: Background: RGB: 382c34
+- Color: Blue -> make it more blue

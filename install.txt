@@ -7,6 +7,8 @@ mate-terminal
 nodejs
 htop
 awscli
+google-cloud-sdk
+kubectx (contains kubens)
 curl
 yarn
 ripgrep
@@ -23,8 +25,11 @@ grpc:
 sudo apt install -y protobuf-compiler
 sudo apt install protobuf-compiler-grpc
 
+go install golang.org/x/tools/gopls@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+golangci-lint
+buf ?
 
 snap go
 snap jq
@@ -35,6 +40,9 @@ snap postman
 grpcurl (https://github.com/fullstorydev/grpcurl/releases)
 
 pip:
+click, requests
 flake8
 pylint
 jedi
+
+npm install -g jwt-cli
