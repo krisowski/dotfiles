@@ -9,6 +9,7 @@ htop
 awscli
 google-cloud-sdk
 kubectx (contains kubens)
+k9s
 curl
 yarn
 ripgrep
@@ -20,6 +21,8 @@ ffmpeg
 pip
 cloc
 net-tools
+meld
+tldr
 
 grpc:
 sudo apt install -y protobuf-compiler
@@ -29,7 +32,7 @@ go install golang.org/x/tools/gopls@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 golangci-lint
-buf ?
+buf: https://github.com/bufbuild/buf
 
 snap go
 snap jq
@@ -44,5 +47,21 @@ click, requests
 flake8
 pylint
 jedi
+jsonschema
 
 npm install -g jwt-cli
+
+https://github.com/troyxmccall/wd
+
+brew intall libpq #psql client
+
+bash-completion
+
+Chrome: https://github.com/refined-github/refined-github
+
+
+# https://charm.sh/
+brew install neofetch
+brew install glow
+brew install vhs
+

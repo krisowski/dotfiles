@@ -11,3 +11,5 @@ iTerm2
 - Option + <-/-> Settings/Profiles/Keys/General -> Left Key Option: Esc+
 - Color: Background: RGB: 382c34
 - Color: Blue -> make it more blue
+- Disable bell: Settings/Profiles/Terminal/check Silence bell
+- Profiles/Text/Use built-in Powerline glyphs (don't install fonts-powerline)
