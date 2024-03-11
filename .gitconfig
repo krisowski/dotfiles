@@ -1,6 +1,6 @@
 [user]
-	email = krzysztof.sniezynski@form.com
-  name = Sniezynski Krzysztof-AKS006C
+	email = krzysztof.sniezynski@gmail.com
+  name = Sniezynski Krzysztof
 [core]
   autocrlf = false
 	editor = vim
@@ -11,6 +11,7 @@
   sb = status -sb
   br = branch
   po = "!git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
+  pu = pull
   wdiff = diff --color-words
   cdiff = diff --cached
   ls = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]\" --decorate --date=short
